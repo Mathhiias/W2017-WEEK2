@@ -15,7 +15,8 @@ public class W2017WEEK2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Hello GitHub!");
+        GameOfWar theGame = new GameOfWar();
+        theGame.playTheGame();
     }
     
 }

@@ -6,6 +6,7 @@
 package w2017.week2;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 /**
  *
@@ -42,5 +43,23 @@ public class DeckOfCards {
             deckString += card.toString() + "\n";
         }
         return deckString;
+    }
+
+    /**
+     * this method will shuffle the cards and change their order
+    */
+    public void shuffle() 
+    {
+        Collections.shuffle(deck);
+    }
+    
+    
+    /**
+     * This method will deal the top card off the deck 
+     * @return a Card object
+     */
+    public Card dealTopCard()
+    {
+        return deck.remove(0);
     }
 }
