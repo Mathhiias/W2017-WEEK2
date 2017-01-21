@@ -12,7 +12,7 @@ package w2017.week2;
 public class test {
     public static void main(String[] args)
     {
-        System.out.print("Hello, this is just a test.");
-        
+        System.out.println("Hello, this is just a test.");
+        System.out.println("Hi Github");
     }
 }
